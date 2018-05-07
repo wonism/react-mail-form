@@ -49,6 +49,7 @@ const prodConfig = {
     filename: 'react-mail-form.js',
     libraryTarget: 'umd',
     library: 'ReactContactForm',
+    globalObject: 'this',
   },
 };
 
