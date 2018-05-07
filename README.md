@@ -1,9 +1,9 @@
-# react-contact-form
+# react-mail-form
 > React component for simple contact form
 
 ## Getting Started
 ```
-$ npm i -S react react-dom react-contact-form
+$ npm i -S react react-dom react-mail-form
 ```
 
 ## Development
@@ -20,7 +20,7 @@ $ npm run build
 
 ## How to Use
 ```jsx
-import ReactContactForm from 'react-contact-form';
+import ReactContactForm from 'react-mail-form';
 
 <ReactContactForm to="address@gmail.com" />
 ```

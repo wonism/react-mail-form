@@ -46,7 +46,7 @@ const prodConfig = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'react-contact-form.js',
+    filename: 'react-mail-form.js',
     libraryTarget: 'umd',
     library: 'ReactContactForm',
   },

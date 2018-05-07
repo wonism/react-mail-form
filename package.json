@@ -1,8 +1,8 @@
 {
-  "name": "react-contact-form",
+  "name": "react-mail-form",
   "version": "1.0.0",
   "description": "React component for simple contact form",
-  "main": "dist/react-contact-form.js",
+  "main": "dist/react-mail-form.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config webpack.config.js --hot --host 0.0.0.0",
     "build": "NODE_ENV=production webpack -p --config webpack.config.js",
@@ -12,10 +12,10 @@
   "author": "wonism <yocee57@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonism/react-contact-form.git"
+    "url": "git+https://github.com/wonism/react-mail-form.git"
   },
   "bugs": {
-    "url": "https://github.com/wonism/react-contact-form/issues"
+    "url": "https://github.com/wonism/react-mail-form/issues"
   },
   "keywords": [
     "react",
