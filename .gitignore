@@ -17,3 +17,5 @@ node_modules/
 bower_components/
 *.log
 *.gz
+
+dist/

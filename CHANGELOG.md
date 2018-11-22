@@ -4,3 +4,6 @@ __1.0.0__
 
 __1.0.1__
 - use `this` instead of `window` in build file
+
+__1.0.2__
+- update some dependencies
