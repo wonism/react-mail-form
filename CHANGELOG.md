@@ -7,3 +7,6 @@ __1.0.1__
 
 __1.0.2__
 - update some dependencies
+
+__1.0.3__
+- update some dependencies
