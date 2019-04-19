@@ -1,11 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';
-import ReactContactForm from '../src';
+import ReactContactForm, { ReactMailFormProps } from '../lib';
 
 const root = document.getElementById('root');
 
-const Form = styled(ReactContactForm)`
+const Form = styled(ReactContactForm)<ReactMailFormProps>`
 margin:auto;max-width:720px;min-height:100vh;font-size:14px;text-align:center;
 input,textarea{display:block;margin:12px auto;width:100%;max-width:480px;border:1px solid #555;outline:0;font-size:16px;}
 input{padding:12px 6px;}
