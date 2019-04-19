@@ -1,26 +1,61 @@
 {
-  "env": {
-    "browser": true,
-    "node": true,
-    "mocha": true
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true,
+    },
+    "jsx": true,
+    "project": "./tsconfig.json",
+    "sourceType": "module",
+    "tsconfigRootDir": ".",
+    "useJSXTextNode": true,
   },
   "extends": [
     "eslint:recommended",
-    "airbnb"
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
   ],
-  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
   "plugins": [
-    "react"
+    "babel",
+    "import",
+    "jsx-a11y",
+    "react",
+    "@typescript-eslint"
   ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect",
+    },
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js",
+      },
+      "node": {
+        "extensions": [".js", ".jsx", ".json", ".ts", ".tsx"]
+      },
+      "typescript": {},
+    },
+  },
+  "globals": {
+    "$Diff": true,
+  },
   "rules": {
     "import/no-extraneous-dependencies": "off",
+    "no-undef": "off",
     "react/forbid-prop-types": [
       1,
       { "forbid": [] }
     ],
     "react/jsx-filename-extension": [
       1,
-      { "extensions": [ ".js", ".jsx"] }
+      { "extensions": [ ".js", ".jsx", ".ts", ".tsx"] }
     ],
     "comma-dangle": ["error", {
       "arrays": "always-multiline",
@@ -28,6 +63,10 @@
       "imports": "always-multiline",
       "exports": "always-multiline",
       "functions": "only-multiline"
-    }]
-  },
+    }],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+  }
 }

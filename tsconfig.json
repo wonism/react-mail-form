@@ -1,0 +1,40 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "es2015", "es2016", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "pretty": true,
+    "resolveJsonModule": true,
+    "rootDirs": [
+      "./lib",
+      "./demo"
+    ],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "target": "es5",
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "files": [
+    "./types/index.d.ts"
+  ],
+  "include": [
+    "./lib/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ]
+}
