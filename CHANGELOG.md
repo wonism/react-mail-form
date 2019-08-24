@@ -1,5 +1,8 @@
 ## Change Log
 
+## 2.0.1 - 2019-08-24
+- clean dependencies
+
 ## 2.0.0 - 2019-08-24
 - migrate to typescript
 - update some dependencies
