@@ -1,9 +1,9 @@
 # react-mail-form
-> React component for simple contact form
+> React component for simple contact form with zero dependencies
 
 ## Getting Started
 ```
-$ npm i -S react react-dom react-mail-form
+$ npm i -S react-mail-form
 ```
 
 ## Development
