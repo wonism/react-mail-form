@@ -1,6 +1,6 @@
 ## Change Log
 
-## 1.1.0 - 2019-04-20
+## 2.0.0 - 2019-08-24
 - migrate to typescript
 - update some dependencies
 - change some configurations (eslint, webpack, etc.)
