@@ -18,4 +18,8 @@ bower_components/
 *.log
 *.gz
 
+# test
+coverage/
+
+# build
 dist/

@@ -60,7 +60,11 @@ export default class ReactMailForm extends React.Component<ReactMailFormProps, R
           maxLength={Number(contentsMaxLength)}
           placeholder={contentsPlaceholder}
         />
-        <a href={`mailto:${to}?subject=${title}&body=${contents.replace(/\n/g, '%0D%0A')}`}>
+        <a
+          href={`mailto:${to}?subject=${title}&body=${contents.replace(/\n/g, '%0D%0A')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {buttonText}
         </a>
       </div>

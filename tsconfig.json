@@ -26,11 +26,7 @@
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["node_modules", "dist"],
-  "include": [
-    "./lib/**/*"
-  ],
-  "files": [
-    "./types/index.d.ts"
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"],
+  "files": ["./dist/index.d.ts"]
 }
