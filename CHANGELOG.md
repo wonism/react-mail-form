@@ -1,5 +1,8 @@
 ## Change Log
 
+## 2.0.2 - 2019-09-01
+- add test and CI
+
 ## 2.0.1 - 2019-08-24
 - clean dependencies
 

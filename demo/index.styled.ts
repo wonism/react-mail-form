@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import { ReactMailFormProps } from 'react-mail-form';
 
 import ReactMailForm from '../lib';
 
-const Form = styled(ReactMailForm)<ReactMailFormProps>`
+const Form = styled(ReactMailForm)`
   margin: auto;
   max-width: 720px;
   min-height: 100vh;

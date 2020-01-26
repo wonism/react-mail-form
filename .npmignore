@@ -22,5 +22,9 @@ bower_components/
 .git
 .svn
 
+# test
+coverage/
+
+# source
 demo
 lib
